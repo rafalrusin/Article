@@ -1,6 +1,6 @@
 <a:article xmlns='http://www.w3.org/1999/xhtml' xmlns:a="urn:article">
 <a:l>Some text</a:l>
-<a:code lang="xml">
+<a:code lang="xml"><![CDATA[
 <employees>
   <employee>
     <name>Fred Jones</name>
@@ -21,5 +21,5 @@
     <phone location="mobile">(206)555-4321</phone>
   </employee>
  </employees>
-</a:code>
+]]></a:code>
 </a:article>
