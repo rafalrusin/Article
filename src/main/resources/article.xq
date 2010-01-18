@@ -6,9 +6,7 @@ typeswitch ($i)
  case element(a:l, xs:untyped) return ($i/node(), <br/>)
  
  case element(a:code, xs:untyped) return 
-  (<div style="border: thin dashed rgb(0, 0, 170);">
-   { a:highlight($i/text(), $i/@lang)/body/* }
-  </div>, <br/>)
+  ( a:highlight($i/text(), $i/@lang)/body/* , <br/>)
   
  default return "error;"
 };
