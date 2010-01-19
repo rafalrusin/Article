@@ -23,12 +23,11 @@ public class Article {
                 public void run() {
                     try {
                         OutputStream out = p.getOutputStream();
-                        IOUtils.write(code, p.getOutputStream());
+                        IOUtils.write(code, out);
                         out.flush();
                         out.close();
                     } catch (IOException e) {
-                        // TODO Auto-generated catch block
-                        e.printStackTrace();
+                        throw new RuntimeException(e);
                     }
                 }
             });
