@@ -1,5 +1,29 @@
 <a:article xmlns='http://www.w3.org/1999/xhtml' xmlns:a="urn:article">
-<a:l>Some text</a:l>
+    <a:l>Some text <a href="adg">adf<a:l>ln</a:l></a>
+<a:code lang="xml"><![CDATA[
+<employees>
+  <employee>
+    <name>Fred Jones1</name>
+    <address location="home">
+      <street>900 Aurora Ave.</street>
+      <city>Seattle</city>
+      <state>WA</state>
+      <zip>98115</zip>
+    </address>
+    <address location="work">
+      <street>2011 152nd Avenue NE</street>
+      <city>Redmond</city>
+      <state>WA</state>
+      <zip>98052</zip>
+    </address>
+    <phone location="work">(425)555-5665</phone>
+    <phone location="home">(206)555-5555</phone>
+    <phone location="mobile">(206)555-4321</phone>
+  </employee>
+ </employees>
+]]></a:code>
+
+</a:l>
 <a:code lang="xml"><![CDATA[
 <employees>
   <employee>
